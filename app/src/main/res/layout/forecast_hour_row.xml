@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:00"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/weather_type_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time_text_view"
+        android:layout_alignRight="@+id/time_text_view"
+        android:layout_below="@+id/time_text_view"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/temp_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time_text_view"
+        android:layout_alignRight="@+id/time_text_view"
+        android:layout_below="@+id/weather_type_image_view"
+        android:gravity="center"
+        android:text="16°"
+        android:textSize="20sp" />
+
+</RelativeLayout>

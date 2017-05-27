@@ -1,0 +1,28 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        tools:context="com.example.omarf.tourplanning.Fragment.EventListFragment"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/event_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add_event_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:fabSize="normal"
+            android:src="@drawable/index_add"/>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

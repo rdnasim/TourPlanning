@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        android:id="@+id/bottom_sheet"
+
+        >
+        <!--  <android.support.v7.widget.Toolbar
+              android:id="@+id/toolbar"
+              android:layout_width="match_parent"
+              android:layout_height="?android:attr/actionBarSize"
+              android:background="?attr/colorPrimary"
+              android:title="Add Expense"/>-->
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/item_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Item Name"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/price_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter price"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</layout>

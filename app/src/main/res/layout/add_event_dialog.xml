@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_place"
+            android:id="@+id/place_picker_text_view"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/start_date"
+            android:id="@+id/start_date_picker_text_view"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingTop="20dp"
+            />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/end_date"
+        android:id="@+id/end_date_picker_text_view"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Budget"
+            android:id="@+id/budget_edit_text"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+</layout>

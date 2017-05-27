@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/events_bottom_menu"
+        android:title="Events"
+        android:icon="@drawable/event_icon"/>
+    <item android:id="@+id/nearby_bottom_menu"
+        android:title="Nearby"
+        android:icon="@drawable/near_by_icon"/>
+    <item android:id="@+id/weather_bottom_menu"
+        android:title="Weather"
+        android:icon="@drawable/weather_icon"/>
+
+</menu>

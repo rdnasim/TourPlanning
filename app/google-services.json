@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1076238201205",
+    "firebase_url": "https://tourplanning-6e0cc.firebaseio.com",
+    "project_id": "tourplanning-6e0cc",
+    "storage_bucket": "tourplanning-6e0cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076238201205:android:7ef9c40859657d36",
+        "android_client_info": {
+          "package_name": "com.example.omarf.tourplanning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076238201205-sr8lg065o4d3gr0t5rb96q0aho9p1scu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBuSmlIXEeQdR-WFcAv6ufpOdQYAG3kug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076238201205-sr8lg065o4d3gr0t5rb96q0aho9p1scu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
